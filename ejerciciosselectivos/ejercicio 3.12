@@ -1,0 +1,30 @@
+Algoritmo calcularpagoporhora
+	Definir horastrabajadas Como Entero
+	Definir costoporhora,totalpago Como Real
+	//datos de entrada
+	Escribir "ingrese las horas trabajadas"
+	Leer horastrabajadas
+	Escribir "costoporhora"
+	Leer costoporhora
+	//Proceso 
+	si horastrabajadas<=50 Entonces
+		si horastrabajadas>=0 y horastrabajadas<=40 Entonces
+			totalpago=horastrabajadas*costoporhora
+		SiNo si horastrabajadas<=45 entonces
+				totalpago=(40*costoporhora)+(horastrabajadas-40)*2*costoporhora
+			SiNo
+				totalpago=(40*costoporhora)+(horastrabajadas-45)*3*costoporhora+(5*costoporhora)*2
+			FinSi
+			
+			
+		FinSi
+	SiNo
+		Escribir "las horas trabajadas no pueden ser mayor de 50"
+		
+	FinSi
+	//datos de salida
+	Escribir "el costo de pago semanal por horas trabajadas es:",totalpago
+	
+	
+	
+FinAlgoritmo

@@ -1,0 +1,24 @@
+Algoritmo pasajedeunviajedeestudiosJA
+	Definir numerodealumnos,costodelpasaje Como Real
+	//datos de entrada
+	Escribir "ingrese el valor de numeros de alumnos:"
+	Leer numerodealumnos;
+	Escribir "ingrese costodelpasaje:"
+	Leer costodelpasaje;
+	//Proceso 
+	si costodelpasaje=20 Entonces
+		Escribir numerodealumnos>=100;
+	FinSi
+	si costodelpasaje=35 Entonces
+		Escribir numerodealumnos>=50;
+	FinSi
+	si costodelpasaje=40 Entonces
+		Escribir numerodealumnos>=20;
+	FinSi
+	si costodelpasaje=70 Entonces
+		Escribir numerodealumnos<20;
+	FinSi
+	//datos de salida
+	Escribir "el costo del pasaje es:",costodelpasaje
+	
+FinAlgoritmo

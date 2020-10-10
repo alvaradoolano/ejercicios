@@ -1,0 +1,27 @@
+Algoritmo calificacionenletraJA
+	Definir calificacion Como Real
+	//datos de entrada
+	Escribir "ingrese el valor de calificacion:";
+	Leer calificacion;
+	//Proceso 
+	si calificacion=10 Entonces
+		Escribir "A";
+	FinSi
+	si calificacion=9 Entonces
+		Escribir "B";
+	FinSi
+	si calificacion=8 Entonces
+		Escribir "C";
+	FinSi
+	si calificacion=7 Entonces
+		Escribir "D";
+	FinSi
+	si calificacion=6 Entonces
+		Escribir "E";
+	FinSi
+	si calificacion<=5 Entonces
+		Escribir "F"
+	FinSi
+	// datos de salida
+	Escribir "la calificacion en letra es:",calificacion
+FinAlgoritmo

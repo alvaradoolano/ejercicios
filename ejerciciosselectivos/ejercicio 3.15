@@ -1,0 +1,31 @@
+Algoritmo diacasoJA
+	Definir dia Como Entero
+	//datos de entrada
+	Escribir "ingrese un numero del 1 al 7:"
+	Leer dia;
+	//Proceso 
+	si dia=1 Entonces;
+		Escribir "lunes";
+	FinSi
+	si dia=2 Entonces;
+		Escribir "martes";
+	FinSi
+	si dia=3 Entonces;
+		Escribir "miercoles";
+	FinSi
+	si dia=4 Entonces
+		Escribir "jueves";
+	FinSi
+	si dia=5 Entonces;
+		Escribir "viernes"
+	FinSi
+	si dia=6 Entonces;
+		Escribir "sabado";
+	FinSi
+	si dia=7 Entonces;
+		Escribir "domingo";
+	FinSi
+	// datos de salida
+	    Escribir " dia de la semana es:",dia
+	
+FinAlgoritmo
